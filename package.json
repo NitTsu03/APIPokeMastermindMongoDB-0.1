@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "passport-jwt": "^4.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.2.2",
+    "passport": "^0.5.2"
+  }
+}
